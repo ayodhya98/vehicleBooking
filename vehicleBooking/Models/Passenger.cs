@@ -13,5 +13,7 @@
 
         public ICollection <Vehicles> vehicles { get; set; }
 
+        public ICollection<Booking> bookings { get; set; }
+
     }
 }
